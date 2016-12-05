@@ -1,0 +1,486 @@
+fileFormatVersion: 2
+guid: 3871ab929be363f40886964467c5953d
+timeCreated: 1480800056
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone005
+    100002: Bone010
+    100004: Chain-Link
+    100006: Chain-Link1
+    100008: Chain-Ring
+    100010: ChainLink1
+    100012: Collar
+    100014: Foot-CTRL-BL
+    100016: Foot-CTRL-BR
+    100018: Foot-CTRL-FL
+    100020: Foot-CTRL-FR
+    100022: HydraBody
+    100024: //RootNode
+    100026: IK Chain001
+    100028: IK Chain002
+    100030: IK Chain003
+    100032: IK Chain004
+    100034: IK Chain010
+    100036: LBfoot
+    100038: LBheel
+    100040: LBhip
+    100042: LBleg1
+    100044: LBleg2
+    100046: LFarm1
+    100048: LFarm2
+    100050: LFheel
+    100052: Lfoot
+    100054: LFshoulder
+    100056: Link2
+    100058: Link3
+    100060: Link4
+    100062: Links
+    100064: neck1
+    100066: nodeL1
+    100068: nodeL2
+    100070: nodeR1
+    100072: nodeR2
+    100074: pelvis
+    100076: RBfoot
+    100078: RBheel
+    100080: RBhip
+    100082: RBleg1
+    100084: RBleg2
+    100086: RFarm1
+    100088: RFarm2
+    100090: RFheel
+    100092: RFoot
+    100094: RFshoulder
+    100096: spine1
+    100098: spine2
+    100100: spine3
+    100102: tail1
+    100104: tail2
+    100106: tail3
+    100108: tail4
+    100110: tailtip
+    100112: TorsoEnd
+    400000: Bone005
+    400002: Bone010
+    400004: Chain-Link
+    400006: Chain-Link1
+    400008: Chain-Ring
+    400010: ChainLink1
+    400012: Collar
+    400014: Foot-CTRL-BL
+    400016: Foot-CTRL-BR
+    400018: Foot-CTRL-FL
+    400020: Foot-CTRL-FR
+    400022: HydraBody
+    400024: //RootNode
+    400026: IK Chain001
+    400028: IK Chain002
+    400030: IK Chain003
+    400032: IK Chain004
+    400034: IK Chain010
+    400036: LBfoot
+    400038: LBheel
+    400040: LBhip
+    400042: LBleg1
+    400044: LBleg2
+    400046: LFarm1
+    400048: LFarm2
+    400050: LFheel
+    400052: Lfoot
+    400054: LFshoulder
+    400056: Link2
+    400058: Link3
+    400060: Link4
+    400062: Links
+    400064: neck1
+    400066: nodeL1
+    400068: nodeL2
+    400070: nodeR1
+    400072: nodeR2
+    400074: pelvis
+    400076: RBfoot
+    400078: RBheel
+    400080: RBhip
+    400082: RBleg1
+    400084: RBleg2
+    400086: RFarm1
+    400088: RFarm2
+    400090: RFheel
+    400092: RFoot
+    400094: RFshoulder
+    400096: spine1
+    400098: spine2
+    400100: spine3
+    400102: tail1
+    400104: tail2
+    400106: tail3
+    400108: tail4
+    400110: tailtip
+    400112: TorsoEnd
+    2300000: Chain-Link
+    2300002: Chain-Ring
+    2300004: Collar
+    3300000: Chain-Link
+    3300002: Chain-Ring
+    3300004: Collar
+    4300000: HydraBody
+    4300002: Collar
+    4300004: Chain-Ring
+    4300006: Chain-Link
+    4300008: Links
+    7400000: idle
+    7400002: Freeze
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: HydraBody
+    13700002: Links
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chain-Link
+        weight: 1
+      - path: Chain-Link1
+        weight: 1
+      - path: Chain-Ring
+        weight: 1
+      - path: ChainLink1
+        weight: 1
+      - path: ChainLink1/Link2
+        weight: 1
+      - path: ChainLink1/Link2/Link3
+        weight: 1
+      - path: ChainLink1/Link2/Link3/Link4
+        weight: 1
+      - path: ChainLink1/Link2/Link3/Link4/Bone005
+        weight: 1
+      - path: Collar
+        weight: 1
+      - path: Foot-CTRL-BL
+        weight: 1
+      - path: Foot-CTRL-BR
+        weight: 1
+      - path: Foot-CTRL-FL
+        weight: 1
+      - path: Foot-CTRL-FR
+        weight: 1
+      - path: HydraBody
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK Chain010
+        weight: 1
+      - path: LBhip
+        weight: 1
+      - path: LBhip/LBleg1
+        weight: 1
+      - path: LBhip/LBleg1/LBleg2
+        weight: 1
+      - path: LBhip/LBleg1/LBleg2/LBheel
+        weight: 1
+      - path: LBhip/LBleg1/LBleg2/LBheel/LBfoot
+        weight: 1
+      - path: LBhip/LBleg1/LBleg2/LBheel/LBfoot/nodeL2
+        weight: 1
+      - path: Links
+        weight: 1
+      - path: neck1
+        weight: 1
+      - path: pelvis
+        weight: 1
+      - path: pelvis/spine1
+        weight: 1
+      - path: pelvis/spine1/spine2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1/LFarm2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1/LFarm2/LFheel
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1/LFarm2/LFheel/Lfoot
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1/LFarm2/LFheel/Lfoot/nodeL1
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1/RFarm2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1/RFarm2/RFheel
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1/RFarm2/RFheel/RFoot
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1/RFarm2/RFheel/RFoot/nodeR1
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/TorsoEnd
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/TorsoEnd/Bone010
+        weight: 1
+      - path: pelvis/tail1
+        weight: 1
+      - path: pelvis/tail1/tail2
+        weight: 1
+      - path: pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: pelvis/tail1/tail2/tail3/tail4/tailtip
+        weight: 1
+      - path: RBhip
+        weight: 1
+      - path: RBhip/RBleg1
+        weight: 1
+      - path: RBhip/RBleg1/RBleg2
+        weight: 1
+      - path: RBhip/RBleg1/RBleg2/RBheel
+        weight: 1
+      - path: RBhip/RBleg1/RBleg2/RBheel/RBfoot
+        weight: 1
+      - path: RBhip/RBleg1/RBleg2/RBheel/RBfoot/nodeR2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Freeze
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chain-Link
+        weight: 1
+      - path: Chain-Link1
+        weight: 1
+      - path: Chain-Ring
+        weight: 1
+      - path: ChainLink1
+        weight: 1
+      - path: ChainLink1/Link2
+        weight: 1
+      - path: ChainLink1/Link2/Link3
+        weight: 1
+      - path: ChainLink1/Link2/Link3/Link4
+        weight: 1
+      - path: ChainLink1/Link2/Link3/Link4/Bone005
+        weight: 1
+      - path: Collar
+        weight: 1
+      - path: Foot-CTRL-BL
+        weight: 1
+      - path: Foot-CTRL-BR
+        weight: 1
+      - path: Foot-CTRL-FL
+        weight: 1
+      - path: Foot-CTRL-FR
+        weight: 1
+      - path: HydraBody
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK Chain010
+        weight: 1
+      - path: LBhip
+        weight: 1
+      - path: LBhip/LBleg1
+        weight: 1
+      - path: LBhip/LBleg1/LBleg2
+        weight: 1
+      - path: LBhip/LBleg1/LBleg2/LBheel
+        weight: 1
+      - path: LBhip/LBleg1/LBleg2/LBheel/LBfoot
+        weight: 1
+      - path: LBhip/LBleg1/LBleg2/LBheel/LBfoot/nodeL2
+        weight: 1
+      - path: Links
+        weight: 1
+      - path: neck1
+        weight: 1
+      - path: pelvis
+        weight: 1
+      - path: pelvis/spine1
+        weight: 1
+      - path: pelvis/spine1/spine2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1/LFarm2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1/LFarm2/LFheel
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1/LFarm2/LFheel/Lfoot
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/LFshoulder/LFarm1/LFarm2/LFheel/Lfoot/nodeL1
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1/RFarm2
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1/RFarm2/RFheel
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1/RFarm2/RFheel/RFoot
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/RFshoulder/RFarm1/RFarm2/RFheel/RFoot/nodeR1
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/TorsoEnd
+        weight: 1
+      - path: pelvis/spine1/spine2/spine3/TorsoEnd/Bone010
+        weight: 1
+      - path: pelvis/tail1
+        weight: 1
+      - path: pelvis/tail1/tail2
+        weight: 1
+      - path: pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: pelvis/tail1/tail2/tail3/tail4/tailtip
+        weight: 1
+      - path: RBhip
+        weight: 1
+      - path: RBhip/RBleg1
+        weight: 1
+      - path: RBhip/RBleg1/RBleg2
+        weight: 1
+      - path: RBhip/RBleg1/RBleg2/RBheel
+        weight: 1
+      - path: RBhip/RBleg1/RBleg2/RBheel/RBfoot
+        weight: 1
+      - path: RBhip/RBleg1/RBleg2/RBheel/RBfoot/nodeR2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

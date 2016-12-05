@@ -1,0 +1,22 @@
+The scripts are scattered because it made it easier to work this way. 
+- All the scripts about the Player are in the hydracharacter folder
+- All the scripts about enemies are in RedGoblin
+- All the other scripts are in LevelScripts
+
+CREDITS:
+SCRIPTS:
+Veronique Morais:
+- flamethrower
+- all animations and particles
+- enemy health
+- wave system (EnemySpawn + LevelWaves)
+- bullet behavior
+
+Josh Curtis:
+- player HP
+
+DESIGN:
+Veronique Morais:
+- hydra model + texture
+Josh Curtis:
+- animations
